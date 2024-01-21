@@ -14,6 +14,7 @@
 		CAFBBC032B5B9821001B7C7B /* HeartRateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBBC022B5B9821001B7C7B /* HeartRateTests.swift */; };
 		CAFBBC0D2B5B9821001B7C7B /* HeartRateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBBC0C2B5B9821001B7C7B /* HeartRateUITests.swift */; };
 		CAFBBC0F2B5B9821001B7C7B /* HeartRateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBBC0E2B5B9821001B7C7B /* HeartRateUITestsLaunchTests.swift */; };
+		CAFBBC1E2B5CB42C001B7C7B /* HeartRatePeripheral.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBBC1D2B5CB42C001B7C7B /* HeartRatePeripheral.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CAFBBC082B5B9821001B7C7B /* HeartRateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeartRateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFBBC0C2B5B9821001B7C7B /* HeartRateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateUITests.swift; sourceTree = "<group>"; };
 		CAFBBC0E2B5B9821001B7C7B /* HeartRateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CAFBBC1D2B5CB42C001B7C7B /* HeartRatePeripheral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRatePeripheral.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,8 @@
 		CAFBBBF02B5B9820001B7C7B /* HeartRate */ = {
 			isa = PBXGroup;
 			children = (
+				CAFBBC1C2B5CB406001B7C7B /* Models */,
+				CAFBBC1B2B5CB401001B7C7B /* Views */,
 				CAFBBBF12B5B9820001B7C7B /* HeartRateApp.swift */,
 				CAFBBBF32B5B9820001B7C7B /* ContentView.swift */,
 				CAFBBBF52B5B9821001B7C7B /* Assets.xcassets */,
@@ -125,6 +129,21 @@
 				CAFBBC0E2B5B9821001B7C7B /* HeartRateUITestsLaunchTests.swift */,
 			);
 			path = HeartRateUITests;
+			sourceTree = "<group>";
+		};
+		CAFBBC1B2B5CB401001B7C7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CAFBBC1C2B5CB406001B7C7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CAFBBC1D2B5CB42C001B7C7B /* HeartRatePeripheral.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAFBBBF42B5B9820001B7C7B /* ContentView.swift in Sources */,
+				CAFBBC1E2B5CB42C001B7C7B /* HeartRatePeripheral.swift in Sources */,
 				CAFBBBF22B5B9820001B7C7B /* HeartRateApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
