@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA9F5FFC2B5E817D000E7A82 /* HeartRatePeripheralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F5FFB2B5E817D000E7A82 /* HeartRatePeripheralManager.swift */; };
+		CA9F5FFE2B5E818D000E7A82 /* HeartRateMeasurement.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9F5FFD2B5E818D000E7A82 /* HeartRateMeasurement.swift */; };
 		CAFBBBF22B5B9820001B7C7B /* HeartRateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBBBF12B5B9820001B7C7B /* HeartRateApp.swift */; };
 		CAFBBBF42B5B9820001B7C7B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFBBBF32B5B9820001B7C7B /* ContentView.swift */; };
 		CAFBBBF62B5B9821001B7C7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAFBBBF52B5B9821001B7C7B /* Assets.xcassets */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CA9F5FFB2B5E817D000E7A82 /* HeartRatePeripheralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRatePeripheralManager.swift; sourceTree = "<group>"; };
+		CA9F5FFD2B5E818D000E7A82 /* HeartRateMeasurement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateMeasurement.swift; sourceTree = "<group>"; };
 		CAFBBBEE2B5B9820001B7C7B /* HeartRate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeartRate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAFBBBF12B5B9820001B7C7B /* HeartRateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeartRateApp.swift; sourceTree = "<group>"; };
 		CAFBBBF32B5B9820001B7C7B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -142,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				CAFBBC1D2B5CB42C001B7C7B /* HeartRatePeripheral.swift */,
+				CA9F5FFB2B5E817D000E7A82 /* HeartRatePeripheralManager.swift */,
+				CA9F5FFD2B5E818D000E7A82 /* HeartRateMeasurement.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -276,6 +282,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CA9F5FFC2B5E817D000E7A82 /* HeartRatePeripheralManager.swift in Sources */,
+				CA9F5FFE2B5E818D000E7A82 /* HeartRateMeasurement.swift in Sources */,
 				CAFBBBF42B5B9820001B7C7B /* ContentView.swift in Sources */,
 				CAFBBC1E2B5CB42C001B7C7B /* HeartRatePeripheral.swift in Sources */,
 				CAFBBBF22B5B9820001B7C7B /* HeartRateApp.swift in Sources */,
